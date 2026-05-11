@@ -23,45 +23,6 @@ This repository accompanies the [blog post](https://medium.com/@bsu1822700/beyon
 
 ---
 
-## Repository structure
-
-```
-.
-├── README.md                          ← you are here
-├── requirements.txt                   ← Python dependencies
-│
-├── tokenizer.py                       ← raw XML → token sequences
-├── dataset.py                         ← PyTorch Dataset + DataLoaders
-├── model.py                           ← Quantile Regression Transformer
-├── loss.py                            ← Pinball loss
-├── trainer.py                         ← training loop
-├── calibrator.py                      ← conformal calibration
-├── evaluator.py                       ← test set evaluation
-├── visualize.py                       ← all blog figures
-│
-├── run_training.py                    ← end-to-end training script
-├── run_evaluation.py                  ← end-to-end evaluation script
-├── run_visualizations.py              ← generates all blog figures
-│
-├── checkpoints/                       ← trained model + calibration results
-│   ├── best_model.pt
-│   ├── calibration.pkl
-│   └── results.csv
-│
-├── blog_figures/                      ← final figures used in the blog
-│   ├── Output1
-│   ├── Output2
-│   ├── Output3
-│   ├── Output4
-│
-└── data/                              ← place OhioT1DM 2020 XML files here
-    └── OhioT1DM/2020/
-        ├── train/                     ← *-ws-training.xml files
-        └── test/                      ← *-ws-testing.xml files
-```
-
----
-
 ## Dataset
 
 This project uses the [OhioT1DM 2020 dataset](http://smarthealth.cs.ohio.edu/OhioT1DM-dataset.html) — a publicly available dataset containing approximately 8 weeks of training data and 2 weeks of test data per patient for 6 individuals with Type 1 Diabetes. Each patient's data includes 5-minute continuous glucose monitor (CGM) readings, insulin events, meal logs, and wearable sensor signals.
