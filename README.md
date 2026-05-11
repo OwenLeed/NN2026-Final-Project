@@ -1,8 +1,6 @@
 # Calibrated Uncertainty in Blood Glucose Prediction for Type 1 Diabetes
 
-A Transformer-based neural network that produces both 30-minute blood glucose forecasts **and** calibrated confidence intervals for individuals with Type 1 Diabetes (T1D), evaluated on the OhioT1DM 2020 dataset.
-
-This repository accompanies the [blog post](https://medium.com/@bsu1822700/beyond-the-point-estimate-calibrated-uncertainty-intervals-for-blood-glucose-prediction-in-type-1-91def3dfcdef) describing the project.
+This repository is for the [blog post](https://medium.com/@bsu1822700/beyond-the-point-estimate-calibrated-uncertainty-intervals-for-blood-glucose-prediction-in-type-1-91def3dfcdef) describing the project.
 
 ---
 
