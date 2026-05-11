@@ -2,7 +2,7 @@
 
 A Transformer-based neural network that produces both 30-minute blood glucose forecasts **and** calibrated confidence intervals for individuals with Type 1 Diabetes (T1D), evaluated on the OhioT1DM 2020 dataset.
 
-This repository accompanies the [blog post](LINK_TO_BLOG_POST) describing the project.
+This repository accompanies the [blog post]([LINK_TO_BLOG_POST](https://medium.com/@bsu1822700/beyond-the-point-estimate-calibrated-uncertainty-intervals-for-blood-glucose-prediction-in-type-1-91def3dfcdef)) describing the project.
 
 ---
 
@@ -139,7 +139,7 @@ python -c "from run_visualizations import generate_figure_2; generate_figure_2()
 
 ### Figure 3 — RMSE vs coverage scatter
 
-[`blog_figures/fig3_rmse_coverage_scatter.png`](blog_figures/fig3_rmse_coverage_scatter.png) | [PDF version](blog_figures/fig3_rmse_coverage_scatter.pdf)
+[`blog_figures/fig3_rmse_coverage_scatter.png`](blog_figures/fig3_rmse_coverage_scatter.png) | [PDF version]
 
 A per-patient scatter plot of hypoglycemic RMSE against hypoglycemic 90% coverage, demonstrating the r = −0.88 relationship that identifies prediction quality as the root cause of calibration failure. Bubble size encodes the number of hypoglycemic test samples per patient.
 
