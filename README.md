@@ -174,3 +174,4 @@ This project was developed as a final project for Artificial Neural Networks & D
 
 Claude (Opus 4.7), developed by Anthropic, was used during this project to assist with literature review, methodology brainstorming, and code development. All design decisions, analyses, and final outputs were verified and authored by the human researcher.
 
+# NeuralNets2026-Final-Project
