@@ -70,18 +70,6 @@ This project uses the [OhioT1DM 2020 dataset](http://smarthealth.cs.ohio.edu/Ohi
 
 ---
 
-## Installation
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
-pip install -r requirements.txt
-```
-
-Tested with Python 3.12. Training runs in approximately 1 hour on CPU (Apple Silicon or modern Intel/AMD); no GPU required.
-
----
-
 ## Reproducing the results
 
 The pipeline runs in three sequential steps:
