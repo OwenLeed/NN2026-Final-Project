@@ -49,16 +49,10 @@ This repository accompanies the [blog post](LINK_TO_BLOG_POST) describing the pr
 │   └── results.csv
 │
 ├── blog_figures/                      ← final figures used in the blog
-│   ├── fig1_prediction_intervals.png
-│   ├── fig1_prediction_intervals.pdf
-│   ├── fig2_coverage_comparison.png
-│   ├── fig2_coverage_comparison.pdf
-│   ├── fig3_rmse_coverage_scatter.png
-│   ├── fig3_rmse_coverage_scatter.pdf
-│   ├── fig4_clarke_error_grid.png
-│   ├── fig4_clarke_error_grid.pdf
-│   ├── architecture_diagram.png
-│   └── architecture_diagram.pdf
+│   ├── Output1
+│   ├── Output2
+│   ├── Output3
+│   ├── Output4
 │
 └── data/                              ← place OhioT1DM 2020 XML files here
     └── OhioT1DM/2020/
