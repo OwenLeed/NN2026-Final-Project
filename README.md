@@ -6,7 +6,7 @@ This repository accompanies the [blog post](https://medium.com/@bsu1822700/beyon
 
 ---
 
-## TL;DR
+## Overview
 
 - A 5-head quantile regression Transformer predicts the 5th, 25th, 50th, 75th, and 95th percentiles of glucose 30 minutes in the future
 - Conformal calibration converts these into prediction intervals with formal coverage guarantees
