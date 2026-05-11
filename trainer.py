@@ -1,18 +1,3 @@
-"""
-trainer.py
-==========
-Training loop for the GlucoseTransformer with early stopping,
-learning rate scheduling, and per-epoch diagnostic logging.
-
-Responsibilities:
-    - Run train and validation epochs
-    - Track per-quantile loss separately for diagnostics
-    - Monitor empirical coverage during validation
-    - Early stopping on validation loss
-    - Save best model checkpoint
-    - Return full training history for analysis
-"""
-
 import os
 import time
 import torch
@@ -21,7 +6,6 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional, Tuple
-
 from model import GlucoseTransformer, TransformerConfig
 from loss  import PinballLoss
 
